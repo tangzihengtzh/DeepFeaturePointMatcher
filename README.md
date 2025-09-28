@@ -5,7 +5,7 @@
 
 ## 1. Introduction | 简介
 This repository implements a template matching algorithm that combines **deep feature correlation** (using a modified VGG16) with **local feature refinement** (e.g., SIFT-based corner matching).  
-该代码实现了一种模板匹配方法：先利用改进的 VGG16 网络进行深度特征相似性计算，再通过局部特征点匹配进行精修，最终得到图像对之间的区域对应关系。  
+该代码实现了一种模板匹配方法：针对双目图像的特点设计，先利用改进的 VGG16 网络进行深度特征相似性计算，再通过局部特征点匹配进行精修，最终得到图像对之间的区域对应关系。  
 
 ---
 
@@ -103,6 +103,7 @@ flowchart TD
 
 ---
 
-## 7. License | 许可证
-MIT License. Free for research and educational use.  
-MIT 协议，支持科研与教育使用。
+双目图像匹配结果展示：
+![combined_result](https://github.com/user-attachments/assets/a75ebc0c-7ef7-409e-b024-0250fe964fa0)
+<img width="1974" height="556" alt="image" src="https://github.com/user-attachments/assets/c1e24ef7-d6c7-4cfa-ad70-dda404137bff" />
+
